@@ -1,6 +1,8 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import "./App.css";
+import "./styles/App.css";
+import Navbar from "./components/navbar";
+import Frontpage from "./components/frontpage";
 
 function App() {
 
@@ -15,14 +17,9 @@ function App() {
   }, [])
 
   return (
-      <div>
-        {(typeof backendData.users === 'undefined') ? (
-          <p>Loading ...</p>
-        ) : (
-          backendData.users.map((user, i) => {
-            return <p key={i}>{user}</p>;
-          })
-        )}
+      <div className='page'>
+        <Navbar />
+        <Frontpage />
       </div>
     );
 }

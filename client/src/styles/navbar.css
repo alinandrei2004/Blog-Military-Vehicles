@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #8a96a0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-title {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 4%;
+    width: 80%;
+}
+
+.navbar-item {
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(118, 88, 73);
+    font-size: 1.5em;
+    margin-left: 1em;
+    text-decoration: none;
+    background-color: rgb(200, 200, 209);
+    border: none;
+    border-radius: 5px;
+    padding: 0.4em;
+    margin-right: 1%;
+}
