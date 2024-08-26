@@ -7,7 +7,7 @@ import { ReactComponent as CatalogIcon } from '../svgs/photoAlbum.svg';
 function Navbar() {
     return (
         <div className="navbar">
-            <div className="navbar-title">Navbar</div>
+            <a className="navbar-title" href="/">Navbar</a>
             <div className="items">
                 <button className="navbar-item">Home
                 <HomeIcon width="24" height="24" />
